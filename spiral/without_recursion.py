@@ -1,7 +1,7 @@
 import turtle
 
-LENGTH =   250
-GAP_SIZE = 250
+LENGTH =   int(input("Enter length: "))
+GAP_SIZE = int(input("Enter gap: "))
 
 turtle.hideturtle()
 turtle.width(5)
