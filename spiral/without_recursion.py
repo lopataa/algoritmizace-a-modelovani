@@ -7,7 +7,7 @@ turtle.hideturtle()
 turtle.width(5)
 
 def draw_spiral(length, gap_size):
-    if not (length >= gap_size >= 0):
+    if not (length > gap_size > 0):
         raise ValueError("Invalid parameters :(")
 
     if length == LENGTH:
